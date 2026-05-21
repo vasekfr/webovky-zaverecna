@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #1a1c1c;
+}
+
+
+.navigace {
+    background: #2ecc71;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px #2ecc71;
+}
+
+.logo {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 20px;
+    position: relative;
+    right: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: lightgray;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.welcome {
+    text-align: center;
+    margin-top: 150px;
+    border: black;
+}
+
+
+.container {
+    background: rgba(54, 196, 179, 0.74);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(54, 196, 179, 0.74);
+    border: 5px solid black;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #2d3436;
+}
+
+canvas {
+    background: rgba(152, 251, 152, 0.32);
+    border: 4px solid #176c3a;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background: #2ecc71;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #27ae60;
+}
+
+h2 {
+    margin-top: 25px;
+    color: white;
+    font-size: 45px;
+}
+
+p {
+    margin-top: 10px;
+    color: #555;
+}
+.obrazek {
+    width: 500px;
+    border-radius: 25px;
+    border: 4px solid #2ecc71;
+    color: white;
+
+}
+.popis{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.jakhrat{
+    text-align: center;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+
+
+.informace {
+    width: 800px;
+    background: rgba(54, 196, 179, 0.2);
+    border: 4px solid #2ecc71;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: left;
+
+}
+
+.informace p {
+    color: white;
+
+    font-size: 24px;
+
+    margin: 20px 0;
+
+    line-height: 1.7;
+}
+
